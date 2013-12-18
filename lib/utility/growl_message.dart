@@ -9,6 +9,8 @@ export 'growl_message/model.dart';
 @CustomTag('h-growl-message')
 class GrowlMessageComponent extends PolymerElement {
   
+  // FIXME If I omit the getters and setters and notifyPropertyChange, then
+  // the components are empty in Chrome
   @published String summary;
   @published String detail;
   @published String severity;
@@ -21,9 +23,7 @@ class GrowlMessageComponent extends PolymerElement {
   
   GrowlMessageComponent.created() : super.created();
   
-  GrowlMessageModel get model {
-    return new GrowlMessageModel(summary, detail, severity);
-  }
+  GrowlMessageModel get model => new GrowlMessageModel(summary, detail, severity);
   
   void onClosing() {
     DivElement container = $['container'];
