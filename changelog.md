@@ -1,4 +1,4 @@
-# Changelog - Dart Hop Task Management Framework
+# Changelog
 
 ## 0.1.1
 
