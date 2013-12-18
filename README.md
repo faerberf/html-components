@@ -43,7 +43,7 @@ It is recommended to create your custom elements if you want to listen for compo
 
 ## Examples
 
-For more examples and code samples, please visit this page: ....
+For more examples and code samples, please visit this page: http://szgabsz91.github.io/html-components
 
 Here you can find most of the use cases of the components.
 
