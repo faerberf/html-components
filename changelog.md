@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.1
+## 0.1.2
 
 * tab, tabview migrated to Polymer.dart
 * added examples for the migrated components
