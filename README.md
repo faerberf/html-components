@@ -53,16 +53,52 @@ The pages are not designed properly yet, but they are good to give an insight wh
 
 The list of components that are already migrate from the old Web UI framework to Polymer.dart:
 
+* Data Components
+	* Tag
+	* Tagcloud
+
+* Dialog Components
+	* Confirmation Dialog
+	* Dialog
+
+* Input Components
+	* Boolean Button
+	* Masked Input
+	* Rating
+	* Select Item
+	* Select Button
+	* Select Checkbox Menu
+
+* Menu Components
+	* Breadcrumb
+	* Context Menu
+	* Menubar
+	* Menu Button
+	* Menu Item
+	* Menu Separator
+	* Split Button
+	* Submenu
+
+* Multimedia Components
+	* Gallery
+	* Image Compare
+	* Lightbox
+	* Photocam
+
 * Panel Components
-  * Tab
-  * Tabview
+	* Accordion
+	* Panel
+	* Tab
+	* Tabview
 
 * Utility Components
-  * Clock
-  * Growl
-  * Growl Message
-  * Item Template
-  * Notification Bar
+	* Clock
+	* Draggable
+	* Growl
+	* Growl Message
+	* Item Template
+	* Notification Bar
+	* Resizable
 
 ## Components to be Migrated
 
@@ -71,46 +107,39 @@ There are many components to be migrated. For a live demo of what components the
 The list of the remaining components:
 
 * Data Components
-  * Carousel
-  * Datagrid
-  * Datatable
-  * Orderlist
-  * Picklist
-  * Select Listbox
-  * Tagcloud
-  * Tree
-  * Treetable
-
-* Dialog Components
-  * Confirmation Dialog
-  * Dialog
+	* Carousel
+	* Datagrid
+	* Datatable
+	* Orderlist
+	* Picklist
+	* Select Listbox
+	* Tree
+	* Treetable
 
 * Input Components
-  * Autocomplete
-  * Boolean Button
-  * Masked Input
-  * Rating
-  * Select Button
-  * Select Checkbox Menu
-
-* Menu Components
-  * Breadcrumb
-  * Context Menu
-  * Menu Button
-  * Menubar
-  * Split Button
+	* Autocomplete
 
 * Multimedia Components
-  * Feed Reader
-  * Gallery
-  * Image Compare
-  * Lightbox
-  * Photocam
+	* Feed Reader
 
-* Panel Components
-  * Accordion
-  * Panel
+Missing features from the Web UI version:
 
-* Utility Components
-  * Draggable
-  * Resizable
+* The tabview and accordion components cannot be bound to a list of objects
+
+Components that work only in Dartium because of a dart2js problem:
+
+* Confirmation Dialog
+* Dialog
+* Masked Input
+* Rating
+* Select Checkbox Menu
+* Gallery
+* Image Compare
+* Lightbox
+* Photocam
+* Accordion
+* Panel
+* Tabview
+* Draggable
+* Growl
+* Resizable
