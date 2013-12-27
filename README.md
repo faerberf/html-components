@@ -130,6 +130,7 @@ The list of the remaining components:
 
 * Confirmation Dialog
 * Dialog
+* Boolean Button
 * Masked Input
 * Rating
 * Select Checkbox Menu
