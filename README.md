@@ -122,11 +122,11 @@ The list of the remaining components:
 * Multimedia Components
 	* Feed Reader
 
-Missing features from the Web UI version:
+## Missing features from the Web UI version:
 
 * The tabview and accordion components cannot be bound to a list of objects
 
-Components that work only in Dartium because of a dart2js problem:
+## Components that work only in Dartium because of a dart2js problem:
 
 * Confirmation Dialog
 * Dialog
