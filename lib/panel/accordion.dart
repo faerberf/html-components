@@ -16,17 +16,19 @@ class AccordionComponent extends PolymerElement {
   void enteredView() {
     super.enteredView();
     
-    ContentElement content = $['hidden'].querySelector('content');
-    List tabComponents = content.getDistributedNodes();
-    tabs = toObservable(
-      tabComponents
-        .where((Node node) => node is TabComponent)
-        .map((TabComponent component) => component.model)
-        .toList(growable: false)
-    );
-    $['hidden'].children.clear();
-    
-    _selectFirstTab();
+    scheduleMicrotask(() {
+      ContentElement content = $['hidden'].querySelector('content');
+      List tabComponents = content.getDistributedNodes();
+      tabs = toObservable(
+        tabComponents
+          .where((Node node) => node is TabComponent)
+          .map((TabComponent component) => component.model)
+          .toList(growable: false)
+      );
+      $['hidden'].children.clear();
+      
+      _selectFirstTab();
+    });
   }
   
   void onHeaderMouseOver(MouseEvent event, var detail, Element target) {

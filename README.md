@@ -3,7 +3,7 @@
 
 [![Build Status](https://drone.io/github.com/szgabsz91/html-components/status.png)](https://drone.io/github.com/szgabsz91/html-components/latest)
 
-HTML Components is a reusable component library written in HTML and Dart based on the functionality of the Primefaces JSF component library.
+HTML Components is a reusable component library containing 47 components written in HTML and Dart based on the functionality of the [Primefaces](http://primefaces.org) JSF component library.
 
 ## Usage
 
@@ -49,25 +49,39 @@ Here you can find most of the use cases of the components.
 
 The pages are not designed properly yet, but they are good to give an insight what this library is all about.
 
+For live demos of the old Web UI version, please visit http://html-components.appspot.com! (Sorry for the quota limit!)
+
 ## Migrated Components
 
 The list of components that are already migrate from the old Web UI framework to Polymer.dart:
 
 * Data Components
+	* Carousel
+	* Column
+	* Datagrid
+	* Datatable
+	* Listbox
+	* Paginator
+	* Picklist
+	* Row Expansion
 	* Tag
 	* Tagcloud
+	* Tree
+	* Tree Node
+	* Treetable
 
 * Dialog Components
 	* Confirmation Dialog
 	* Dialog
 
 * Input Components
+	* Autocomplete
 	* Boolean Button
 	* Masked Input
 	* Rating
-	* Select Item
 	* Select Button
 	* Select Checkbox Menu
+	* Select Item
 
 * Menu Components
 	* Breadcrumb
@@ -80,6 +94,7 @@ The list of components that are already migrate from the old Web UI framework to
 	* Submenu
 
 * Multimedia Components
+	* Feed Reader
 	* Gallery
 	* Image Compare
 	* Lightbox
@@ -99,48 +114,10 @@ The list of components that are already migrate from the old Web UI framework to
 	* Item Template
 	* Notification Bar
 	* Resizable
+	* Safe Html
 
-## Components to be Migrated
+## Warning!
 
-There are many components to be migrated. For a live demo of what components the old Web UI version supported, please visit http://html-components.appspot.com! (Sorry for the quota limit!)
+Most of the components work only in Dartium right now because of a problem with dart2js.
 
-The list of the remaining components:
-
-* Data Components
-	* Carousel
-	* Datagrid
-	* Datatable
-	* Orderlist
-	* Picklist
-	* Select Listbox
-	* Tree
-	* Treetable
-
-* Input Components
-	* Autocomplete
-
-* Multimedia Components
-	* Feed Reader
-
-## Missing features from the Web UI version:
-
-* The tabview and accordion components cannot be bound to a list of objects
-
-## Components that work only in Dartium because of a dart2js problem:
-
-* Confirmation Dialog
-* Dialog
-* Boolean Button
-* Masked Input
-* Rating
-* Select Checkbox Menu
-* Gallery
-* Image Compare
-* Lightbox
-* Photocam
-* Accordion
-* Panel
-* Tabview
-* Draggable
-* Growl
-* Resizable
+In the meantime, the examples must be viewed in Dartium.
