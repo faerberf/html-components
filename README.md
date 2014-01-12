@@ -27,7 +27,7 @@ A basic example:
         <script src="packages/browser/dart.js"></script>
       </head>
       <body>
-       <h-clock size="500"></h-clock>
+        <h-clock size="500"></h-clock>
       </body>
     </html>
 
@@ -47,11 +47,9 @@ For more examples and code samples, please visit this page: http://szgabsz91.git
 
 Here you can find most of the use cases of the components.
 
-The pages are not designed properly yet, but they are good to give an insight what this library is all about.
+Right now the examples must be viewed in Dartium, beacuse the dart2js compiler does not compile the example pages. As soon as I fix this, the components will work in Chrome as well.
 
-For live demos of the old Web UI version, please visit http://html-components.appspot.com! (Sorry for the quota limit!)
-
-## Migrated Components
+## Components in the Library
 
 The list of components that are already migrate from the old Web UI framework to Polymer.dart:
 
@@ -115,9 +113,3 @@ The list of components that are already migrate from the old Web UI framework to
 	* Notification Bar
 	* Resizable
 	* Safe Html
-
-## Warning!
-
-Most of the components work only in Dartium right now because of a problem with dart2js.
-
-In the meantime, the examples must be viewed in Dartium.
